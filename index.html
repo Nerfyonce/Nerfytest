@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Voucher - Multiple APIs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Kolom 1: Welcome Gold -->
+        <div class="column">
+            <div class="card">
+                <h2>Welcome Gold</h2>
+                <p>Generate voucher Welcome Gold.</p>
+                <form id="voucherForm1">
+                    <div class="input-group">
+                        <label for="cardNumber1">Card Number</label>
+                        <input type="text" id="cardNumber1" name="cardNumber1" placeholder="Enter card number" required>
+                    </div>
+                    <button type="submit">Generate Voucher</button>
+                </form>
+                <div id="result1" class="result"></div>
+            </div>
+        </div>
+
+        <!-- Kolom 2: Gold Accumulate 4jt -->
+        <div class="column">
+            <div class="card">
+                <h2>Gold Accumulate 4jt</h2>
+                <p>Generate voucher Gold Accumulate 4jt.</p>
+                <form id="voucherForm2">
+                    <div class="input-group">
+                        <label for="cardNumber2">Card Number</label>
+                        <input type="text" id="cardNumber2" name="cardNumber2" placeholder="Enter card number" required>
+                    </div>
+                    <button type="submit">Generate Voucher</button>
+                </form>
+                <div id="result2" class="result"></div>
+            </div>
+        </div>
+
+        <!-- Kolom 3: Gold Accumulate 6jt -->
+        <div class="column">
+            <div class="card">
+                <h2>Gold Accumulate 6jt</h2>
+                <p>Generate voucher Gold Accumulate 6jt.</p>
+                <form id="voucherForm3">
+                    <div class="input-group">
+                        <label for="cardNumber3">Card Number</label>
+                        <input type="text" id="cardNumber3" name="cardNumber3" placeholder="Enter card number" required>
+                    </div>
+                    <button type="submit">Generate Voucher</button>
+                </form>
+                <div id="result3" class="result"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
